@@ -1,5 +1,5 @@
 {% set name = "openglider" %}
-{% set version = "0.03" %}
+{% set version = "0.04" %}
 
 package:
   name: {{ name }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/booya-at/OpenGlider/archive/{{ version }}.tar.gz
-  sha256: 68fa0937a6e42b963c322269516f4d973b45faad22b826a76f90eb13010858f5
+  sha256: 06bf04c4e9adbb92fd4bed21160edf08a18c5a2c1e4ede5e378844b87d61cf64
 
 build:
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   noarch: python
 
 requirements:
@@ -34,12 +34,12 @@ test:
     - openglider
 
 about:
-  home: "https://github.com/booya-at/OpenGlider"
+  home: https://github.com/booya-at/OpenGlider
   license: GPL-3
   license_family: GPL
   license_file: LICENSE
   summary: paraglider design
-  dev_url: "https://github.com/booya-at/OpenGlider"
+  dev_url: https://github.com/booya-at/OpenGlider
 
 extra:
   recipe-maintainers:
