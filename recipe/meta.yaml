@@ -1,5 +1,5 @@
 {% set name = "openglider" %}
-{% set version = "0.05" %}
+{% set version = "0.05.1" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/booya-at/OpenGlider/archive/{{ version }}.tar.gz
-  sha256: fb4b6137ab305d54dd92debf6b169a46fa2cc6a04621e279481b15b5aca260ff
+  sha256: 1dbaf192514efbac50848db60aac757820e67a69f52053c5183820279429f8f6
 
 build:
   number: 0
@@ -35,7 +35,7 @@ test:
 
 about:
   home: https://github.com/booya-at/OpenGlider
-  license: GPL-3
+  license: GPL-3.0-or-later
   license_family: GPL
   license_file: LICENSE
   summary: paraglider design
