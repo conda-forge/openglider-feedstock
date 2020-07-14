@@ -5,7 +5,7 @@ Home: https://github.com/booya-at/OpenGlider
 
 Package license: GPL-3
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: paraglider design
 
