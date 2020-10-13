@@ -3,13 +3,13 @@ About openglider
 
 Home: https://github.com/booya-at/OpenGlider
 
-Package license: GPL-3
+Package license: GPL-3.0-or-later
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/openglider-feedstock/blob/master/LICENSE.txt)
 
 Summary: paraglider design
 
-
+Development: https://github.com/booya-at/OpenGlider
 
 Current build status
 ====================
