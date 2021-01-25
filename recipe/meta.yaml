@@ -15,10 +15,11 @@ build:
 
 requirements:
   build:
+    - pip
     - {{ compiler('cxx') }}
     - {{ compiler('c') }}
     - cmake
-    - pip
+  host:
     - python
     - pybind11
   run:
