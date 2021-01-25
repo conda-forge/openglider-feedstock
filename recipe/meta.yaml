@@ -15,6 +15,7 @@ build:
 
 requirements:
   build:
+    - cmake
     - pip
     - python
     - pybind11
