@@ -31,7 +31,7 @@ requirements:
     - parabem
     - meshpy
     - pyexcel-ezodf
-    - pyexcel_ods
+    - pyexcel_ods3
     - matplotlib-base
 
 test:
