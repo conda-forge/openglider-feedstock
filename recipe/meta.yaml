@@ -1,6 +1,5 @@
 {% set name = "openglider" %}
-{% set version = "0.0.6_cpp" %}
-
+{% set version = "0.0.6_cpp2" %}
 
 package:
   name: {{ name }}
