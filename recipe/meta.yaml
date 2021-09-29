@@ -28,6 +28,7 @@ requirements:
     - meshpy
     - pyexcel-ezodf
     - matplotlib-base
+    - pyexcel-ods3
 
 test:
   imports:
