@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/booya-at/OpenGlider/archive/0.0.7-1.tar.gz
+  url: https://github.com/booya-at/OpenGlider/archive/{{ version }}.tar.gz
   sha256: d4a6bec0e6931c7c62861343c6a66b5a198b2bd8dc0b4aaad362a48adfae8454
 
 build:
