@@ -1,5 +1,5 @@
 {% set name = "openglider" %}
-{% set version = "0.0.7" %}
+{% set version = "0.0.7.1" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/booya-at/OpenGlider/archive/{{ version }}.tar.gz
-  sha256: 066ed914c36985432a87c752e4931caa690856f13dad18f69207dcdc63b53b8d
+  sha256: d4a6bec0e6931c7c62861343c6a66b5a198b2bd8dc0b4aaad362a48adfae8454
 
 build:
   number: 0
