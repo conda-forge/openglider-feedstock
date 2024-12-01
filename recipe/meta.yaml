@@ -19,6 +19,8 @@ requirements:
     - pip
     - python {{ python_min }}
     - setuptools
+  host:
+    - python {{ python_min }}
   run:
     - python >={{ python_min }}
     - numpy
@@ -32,6 +34,8 @@ requirements:
     - pyexcel-ods3
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - openglider
 
