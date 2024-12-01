@@ -17,10 +17,10 @@ build:
 requirements:
   build:
     - pip
-    - python
+    - python {{ python_min }}
     - setuptools
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - numpy
     - svgwrite
     - ezdxf
