@@ -1,5 +1,3 @@
-schema_version: 1
-
 context:
   name: openglider
   version: 0.8.1
@@ -53,4 +51,3 @@ about:
 extra:
   recipe-maintainers:
     - looooo
-
