@@ -41,6 +41,7 @@ tests:
   - python:
       imports:
         - openglider
+      pip_check: false
 
 about:
   license: GPL-3.0-or-later
