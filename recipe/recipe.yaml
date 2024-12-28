@@ -25,14 +25,17 @@ requirements:
   run:
     - python >=${{ python_min }}
     - numpy
+    - pyexcel-ods3
+    - pyexcel-ezodf
     - svgwrite
     - ezdxf
+    - ezodf
     - lxml
     - parabem
     - meshpy
-    - pyexcel-ezodf
     - matplotlib-base
     - pyexcel-ods3
+    - scipy
 
 tests:
   - python:
