@@ -15,7 +15,7 @@ build:
   noarch: python
 
 requirements:
-  build:
+  host:
     - pip
     - python {{ python_min }}
     - setuptools
@@ -40,7 +40,6 @@ test:
 about:
   home: https://github.com/booya-at/OpenGlider
   license: GPL-3.0-or-later
-  license_family: GPL
   license_file: LICENSE
   summary: paraglider design
   dev_url: https://github.com/booya-at/OpenGlider
